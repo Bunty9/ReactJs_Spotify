@@ -2,9 +2,9 @@
 export const authEndpoint = "https://accounts.spotify.com/authorize";
 // Replace with your app's client ID, redirect URI and desired scopes
 const clientId = process.env.REACT_APP_CLIENT_ID;
-console.log(process.env);
-console.log(clientId);
-const redirectUri = "https://react-js-spotify.vercel.app/";
+// console.log(process.env);
+// console.log(clientId);
+const redirectUri = "http://react-js-spotify.vercel.app/";
 const scopes = [
 	"user-read-currently-playing",
 	"user-read-recently-played",
