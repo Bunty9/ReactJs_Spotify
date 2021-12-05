@@ -1,7 +1,7 @@
 // https://developer.spotify.com/documentation/web-playback-sdk/quick-start/#
 export const authEndpoint = "https://accounts.spotify.com/authorize";
 // Replace with your app's client ID, redirect URI and desired scopes
-const clientId = process.env.REACT_APP_CLIENT_ID;
+const clientId = "3d8cd3821d3d445d8995c463ca68546a";
 // console.log(process.env);
 // console.log(clientId);
 const redirectUri = "http://react-js-spotify.vercel.app/";
